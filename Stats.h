@@ -17,6 +17,8 @@ namespace Stats {
 
         void push(double val);
 
+        void push(const Stats &);
+
         double getMean() const;
 
         double getVariance() const;
